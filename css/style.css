@@ -1,0 +1,74 @@
+body {
+    background: #e6e6e6;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header, section.page, footer {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+header .logo-contenedor a img {
+    width : 75px;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: white;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.articles {
+    width: 70%;
+    float: left;
+    margin-right: 1.5%;
+}
+
+.articles article{
+    background : white;
+    padding : 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+aside {
+    width: 28.5%;
+    float: right;
+    background: #ff8000;
+    border-radius: 5px;
+}
+
+aside .sidebar {
+    color: white;
+    padding: 30px;
+}
+
+footer {
+    background: #000;
+    clear : both;
+}
+
+footer .footer-content{ 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
