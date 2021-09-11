@@ -1,0 +1,49 @@
+//Este archivo define los estilos del header
+
+header {
+    background-color: $bodyBackgroundColor;
+    min-height: 70vh;
+
+    nav {
+        width: 100%;
+        @include displayFlexRow();
+        padding: 20 px 0;
+
+        .logo {
+            font-size: 1.5 em;
+        }
+
+        ul {
+            list-style: none;
+            @include displayFlexRow();
+
+            li {
+                padding: 0 10px;
+
+            }
+        } 
+    }
+
+    .showcase-content {
+        @include displayFlexRow();
+
+        .section-col {
+            max-width: 50%;
+            color: $textColorWhite;
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                line-height: 1.5;
+                font-size: 12px;
+                margin: 20px 0;
+            }
+        }
+
+        img {
+            max-width: 400px;
+        }
+    }
+}

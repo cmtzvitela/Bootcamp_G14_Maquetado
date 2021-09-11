@@ -1,0 +1,31 @@
+
+body {
+    font-family: $siteFont;
+}
+
+a {
+    color: $textColorWhite;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 3px;
+    min-width: 130px;
+    text-align: center;
+    padding: 5px;
+    color:white;
+    transition: transform 300ms ease;
+    &.btn-primary {
+        //background-color: #418bff;
+        background-color: lighten($bodyBackgroundColor, 10% );
+    }
+
+    &.btn-secondary {
+        background-color: $secondaryColor;
+    }
+
+    &:hover {
+        transform: scale(.98);
+    }
+}
