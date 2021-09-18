@@ -1,0 +1,68 @@
+
+body {
+    font-family: Verdana, Tahoma, sans-serif ;
+    background-color: #efefef;
+}
+
+
+.container {
+    width: 85%;
+    flex-wrap: wrap;
+}
+.name {
+    font-weight: bold;
+}
+
+.comment-1 {
+    background-color: #7abaeb;
+    border-radius: 15px;
+    margin: 30px 5px 0 0;
+    padding: 15px;
+}
+
+.comment-2 {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 30px auto 0;
+    padding: 15px;
+}
+
+.comment-3 {
+    background-color: rgb(221, 221, 221);
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px;
+}
+.comment-4 {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.comment-5 {
+    background-color: #ffbaa1;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.carousel-main {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.formulario {
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+.foot {
+    justify-content: center;
+    max-width: 20%;
+    margin: 10px auto;
+}
